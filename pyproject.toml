@@ -11,7 +11,7 @@ markers = [
     "regression: Full regression suite",
     "slow: Tests that take longer than 5 seconds",
 ]
-addopts = "-v --tb=short"
+addopts = "-v --tb=short -p no:playwright"
 
 [tool.black]
 line-length = 100
