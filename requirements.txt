@@ -1,0 +1,16 @@
+# Test framework
+pytest==9.0.2
+pytest-html==4.2.0
+pytest-cov==7.0.0
+
+# Browser automation
+playwright==1.52.0
+
+# Code quality
+black==26.1.0
+ruff==0.15.1
+mypy==1.19.1
+pre-commit==4.5.1
+
+# Utilities
+python-dotenv==1.2.1
